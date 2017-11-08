@@ -29,4 +29,4 @@ The --fork what lets ansible run on multiple hosts in parrel NUM is specified as
  * `ansible-playbook playbook.yml --forks=NUM`
 
 Run playbook on the target hosts with out inventory files
-* `ansible-playbook playbook.yml -i (IP | SERVERNAME)`
+* `ansible-playbook playbook.yml -i (IP | SERVERNAME)`,
