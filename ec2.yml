@@ -4,6 +4,7 @@
       hosts: local
       connection: local
       gather_facts: False
+      tags: provisioning
       vars:
         key_name: aws-ohio
         aws_region: us-east-2
